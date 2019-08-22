@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".Login">
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="335dp"
+        android:layout_height="55dp"
+        android:layout_alignStart="@+id/editText"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="449dp"
+        android:background="@drawable/bg2"
+        android:text="Sign In"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="335dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="274dp"
+        android:background="@drawable/bg"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Email"
+        android:paddingLeft="8dp"
+        android:inputType="textEmailAddress"
+        android:textColor="#000000"
+        android:textColorHint="@android:color/darker_gray"
+        android:textCursorDrawable="@null"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="335dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="358dp"
+        android:textCursorDrawable="@null"
+        android:paddingLeft="8dp"
+        android:background="@drawable/bg"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textColorHint="@android:color/darker_gray"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:background="@color/design_default_color_primary_dark"
+        android:text="Need a new account?"
+        android:textColor="#fff"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="99dp"
+        android:layout_marginEnd="128dp"
+        android:fontFamily="@font/nunito_semibold"
+        android:text="Notification App"
+        android:textColor="#ffffff"
+        android:textSize="34dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="383dp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/visibility"
+        android:layout_width="55dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="365dp"
+        android:layout_marginEnd="42dp"
+        app:srcCompat="@drawable/ic_visibility_off_black_48dp" />
+</RelativeLayout>

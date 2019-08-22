@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="172dp"
+            android:layout_height="163dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="58dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/profile" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="317dp"
+            android:layout_height="55dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="559dp"
+            android:background="@drawable/bg3"
+            android:text="Sign Out"
+            android:textColor="#fff"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/un"
+            android:layout_width="229dp"
+            android:layout_height="58dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="258dp"
+            android:hint="Name"
+            android:background="@drawable/bg"
+           android:paddingLeft="10dp"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="178dp"
+            android:layout_height="52dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="376dp"
+            android:background="@drawable/bg3"
+            android:text="Save Changes"
+            android:textColor="#fff"
+            android:textSize="16dp" />
+
+    </RelativeLayout>
+</FrameLayout>

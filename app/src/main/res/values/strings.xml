@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Firebase Notifications</string>
+    <string name="profile">Profile</string>
+    <string name="Users">Users</string>
+    <string name="Notif">Notifications</string>
+    <string name="default_notification_channel_id">Channel</string>
+</resources>
